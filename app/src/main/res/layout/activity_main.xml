@@ -54,12 +54,12 @@
             tools:ignore="UsingOnClickInXml" />
 
         <Button
-            android:layout_margin="2dp"
             android:id="@+id/btnDivide"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="2dp"
             android:layout_weight="1"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:text="@string/divide"
             tools:ignore="UsingOnClickInXml" />
 
@@ -102,12 +102,12 @@
             tools:ignore="UsingOnClickInXml" />
 
         <Button
-            android:layout_margin="2dp"
             android:id="@+id/btnMultiply"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="2dp"
             android:layout_weight="1"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:text="@string/multiply"
             tools:ignore="UsingOnClickInXml" />
 
@@ -150,12 +150,12 @@
             tools:ignore="UsingOnClickInXml" />
 
         <Button
-            android:layout_margin="2dp"
             android:id="@+id/btnSubtract"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="2dp"
             android:layout_weight="1"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:text="@string/subtract"
             tools:ignore="UsingOnClickInXml" />
 
@@ -169,10 +169,20 @@
 
         <Button
             android:layout_margin="2dp"
+            android:id="@+id/btnDot"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="onDecimalPoint"
+            android:text="@string/dot"
+            tools:ignore="UsingOnClickInXml" />
+
+        <Button
+            android:layout_margin="2dp"
             android:id="@+id/btnZero"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="2"
+            android:layout_weight="1"
             android:onClick="onDigit"
             android:text="@string/_0"
             tools:ignore="UsingOnClickInXml" />
@@ -189,12 +199,12 @@
             tools:ignore="UsingOnClickInXml" />
 
         <Button
-            android:layout_margin="2dp"
             android:id="@+id/btnAdd"
             android:layout_width="0dp"
             android:layout_height="match_parent"
+            android:layout_margin="2dp"
             android:layout_weight="1"
-            android:onClick="onDigit"
+            android:onClick="onOperator"
             android:text="@string/add"
             tools:ignore="UsingOnClickInXml" />
 
